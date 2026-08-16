@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>UBBJ San Martín Chamizal</title>
+
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Bootstrap Icons -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+
+    <!-- CSS personalizado -->
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+
+    <!-- =========================
+         NAVBAR
+    ========================== -->
+
+    <nav class="navbar navbar-expand-lg navbar-ubbj">
+
+        <div class="container">
+
+            <!-- LOGO -->
+
+            <a class="navbar-brand d-flex align-items-center" href="#">
+
+                <img src="img/logo-ubbj.png" alt="Logo UBBJ" class="logo">
+
+                <div class="nombre-institucion">
+                    <strong>UBBJ</strong>
+                    <span>Ejido San Martín Chamizal</span>
+                </div>
+
+            </a>
+
+
+            <!-- BOTÓN RESPONSIVO -->
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuPrincipal">
+
+                <span class="navbar-toggler-icon"></span>
+
+            </button>
+
+
+            <!-- MENÚ -->
+
+            <div class="collapse navbar-collapse" id="menuPrincipal">
+
+                <ul class="navbar-nav ms-auto">
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">
+                            Inicio
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nosotros">
+                            Beneficios
+                        </a>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#carreras">
+                            Carreras
+                        </a>
+                    </li>
+
+
+
+                    <li class="nav-item">
+                        <a class="nav-link" href="#contacto">
+                            Contacto
+                        </a>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div>
+
+    </nav>
+
+    <!-- =========================
+     CARRUSEL PRINCIPAL
+========================== -->
+
+    <section class="banner-principal">
+
+        <div id="carouselUBBJ" class="carousel slide" data-bs-ride="carousel" data-bs-interval="5000">
+
+            <!-- INDICADORES -->
+
+            <div class="carousel-indicators">
+
+                <button type="button" data-bs-target="#carouselUBBJ" data-bs-slide-to="0" class="active">
+                </button>
+
+                <button type="button" data-bs-target="#carouselUBBJ" data-bs-slide-to="1">
+                </button>
+
+                <button type="button" data-bs-target="#carouselUBBJ" data-bs-slide-to="2">
+                </button>
+
+            </div>
+
+
+            <!-- IMÁGENES -->
+
+            <div class="carousel-inner">
+
+
+                <!-- BANNER 1 -->
+
+                <div class="carousel-item active">
+
+                    <a href="pages/convocatoria.html">
+
+                        <img src="img/banner1.jpg" class="d-block w-100" alt="Convocatoria UBBJ">
+
+                    </a>
+
+                </div>
+
+
+                <!-- BANNER 2 -->
+
+                <div class="carousel-item">
+
+                    <a href="pages/estudiantes.html">
+
+                        <img src="img/banner2.jpg" class="d-block w-100" alt="Información para estudiantes">
+
+                    </a>
+
+                </div>
+
+
+                <!-- BANNER 3 -->
+
+                <div class="carousel-item">
+
+                    <a href="pages/contacto.html">
+
+                        <img src="img/banner3.jpg" class="d-block w-100" alt="Contacto UBBJ">
+
+                    </a>
+
+                </div>
+
+            </div>
+
+
+            <!-- ANTERIOR -->
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselUBBJ" data-bs-slide="prev">
+
+                <span class="carousel-control-prev-icon"></span>
+
+                <span class="visually-hidden">
+                    Anterior
+                </span>
+
+            </button>
+
+
+            <!-- SIGUIENTE -->
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselUBBJ" data-bs-slide="next">
+
+                <span class="carousel-control-next-icon"></span>
+
+                <span class="visually-hidden">
+                    Siguiente
+                </span>
+
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- =========================
+         HERO
+    ========================== -->
+
+    <header class="hero">
+
+        <div class="container">
+
+            <div class="row align-items-center">
+
+                <div class="col-lg-7">
+
+                    <span class="etiqueta">
+                        Universidad para el Bienestar
+                    </span>
+
+                    <h1>
+                        Benito Juárez García
+                    </h1>
+
+                    <h2>
+                        Sede Ejido San Martín Chamizal
+                    </h2>
+
+                    <p>
+                        Formación profesional con compromiso social,
+                        responsabilidad y bienestar para nuestra comunidad.
+                    </p>
+
+                    <div class="botones-hero">
+
+                        <a href="#carreras" class="btn btn-ubbj">
+                            Conoce nuestra carrera
+                        </a>
+
+                        <a href="#contacto" class="btn btn-outline-ubbj">
+                            Contacto
+                        </a>
+
+                    </div>
+
+                </div>
+
+
+                <div class="col-lg-5 text-center">
+
+                    <img src="img/logo-ubbj.png" alt="UBBJ San Martín Chamizal" class="logo-hero">
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </header>
+
+    <!-- =========================
+     CONÓCENOS
+========================== -->
+
+    <section id="nosotros" class="seccion">
+
+        <div class="container">
+
+            <div class="titulo-seccion">
+
+
+
+                <h2>
+                    BENEFICIOS
+                </h2>
+
+            </div>
+
+
+            <div class="row g-4">
+
+
+                <!-- INSTITUCIÓN -->
+
+                <div class="col-sm-6 col-lg-3">
+
+                    <div class="tarjeta">
+
+                        <i class="bi bi-building"></i>
+
+                        <h3>
+                            Institución
+                        </h3>
+
+                        <p>
+                            Universidad para el Bienestar Benito Juárez García,
+                            comprometida con la formación profesional y el
+                            bienestar de las comunidades.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- BECA JÓVENES ESCRIBIENDO EL FUTURO -->
+
+                <!-- BECA BENITO JUÁREZ -->
+
+                <div class="col-sm-6 col-lg-3">
+
+                    <div class="tarjeta">
+
+                        <div class="logo-beca-container">
+
+                            <img src="img/logo-beca.png" alt="Beca Educación Superior Jóvenes Escribiendo el Futuro"
+                                class="logo-beca">
+
+                        </div>
+
+                        <h3>
+                            Beca Benito Juárez
+                        </h3>
+
+                        <p>
+                            Apoyo para estudiantes de educación superior,
+                            de acuerdo con los requisitos y disposiciones
+                            establecidos en la convocatoria vigente.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- CONVENIOS -->
+
+                <div class="col-sm-6 col-lg-3">
+
+                    <div class="tarjeta">
+
+                        <i class="bi bi-hospital"></i>
+
+                        <h3>
+                            Convenios de servicio social
+                        </h3>
+
+                        <p>
+                            Convenios para la realización de servicio social
+                            con IMSS-Bienestar e ISSTECH, fortaleciendo la
+                            formación profesional de nuestros estudiantes.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- SEGURO SOCIAL -->
+
+                <!-- SEGURO SOCIAL -->
+
+                <div class="col-sm-6 col-lg-3">
+
+                    <div class="tarjeta">
+
+                        <div class="logo-seguro-container">
+
+                            <img src="img/logo-imss-bienestar.png" alt="IMSS Bienestar - Servicios Públicos de Salud"
+                                class="logo-seguro">
+
+                        </div>
+
+                        <h3>
+                            Seguro Social
+                        </h3>
+
+                        <p>
+                            Información sobre los servicios de salud y
+                            seguridad social disponibles para las y los
+                            estudiantes.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+     OFERTA EDUCATIVA
+========================== -->
+
+    <section id="carreras" class="seccion seccion-verde">
+
+        <div class="container">
+
+            <div class="titulo-seccion titulo-blanco">
+
+                <span>Oferta educativa</span>
+
+                <h2>
+                    Enfermería Integral y Salud Comunitaria
+                </h2>
+
+            </div>
+
+
+            <div class="row justify-content-center">
+
+                <div class="col-md-8 col-lg-6">
+
+                    <div class="card carrera">
+
+                        <div class="card-body text-center">
+
+                            <i class="bi bi-heart-pulse"></i>
+
+                            <h3>
+                                Enfermería Integral y
+                                Salud Comunitaria
+                            </h3>
+
+                            <p>
+                                Formación profesional enfocada en el cuidado
+                                integral de la salud, la prevención de
+                                enfermedades y la atención de las necesidades
+                                de salud de la comunidad.
+                            </p>
+
+                            <button type="button" class="btn btn-ubbj" data-bs-toggle="modal"
+                                data-bs-target="#modalCarrera">
+
+
+                                Conocer la carrera
+
+                            </button>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+        <!-- =========================
+     MODAL - CONOCER CARRERA
+========================== -->
+
+        <div class="modal fade" id="modalCarrera" tabindex="-1" aria-labelledby="modalCarreraLabel" aria-hidden="true">
+
+            <div class="modal-dialog modal-lg modal-dialog-centered">
+
+                <div class="modal-content">
+
+
+                    <!-- ENCABEZADO -->
+
+                    <div class="modal-header">
+
+                        <h2 class="modal-title" id="modalCarreraLabel">
+
+                            <i class="bi bi-heart-pulse-fill"></i>
+
+                            Enfermería Integral y
+                            Salud Comunitaria
+
+                        </h2>
+
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Cerrar"></button>
+
+                    </div>
+
+
+                    <!-- CONTENIDO -->
+
+                    <div class="modal-body">
+
+                        <div class="text-center mb-4">
+
+                            <i class="bi bi-heart-pulse icono-carrera-modal"></i>
+
+                        </div>
+
+
+                        <h3>
+                            Enfermería Integral y Salud Comunitaria
+                        </h3>
+
+                        <p>
+                            La carrera de Enfermería Integral y Salud
+                            Comunitaria tiene como propósito formar
+                            profesionales capaces de brindar atención
+                            integral a las personas, familias y comunidades,
+                            con un enfoque de promoción de la salud,
+                            prevención de enfermedades y cuidado integral.
+                        </p>
+
+
+                        <hr>
+
+
+                        <h4>
+                            Perfil profesional
+                        </h4>
+
+                        <p>
+                            El profesional de Enfermería Integral y Salud
+                            Comunitaria contará con conocimientos,
+                            habilidades y actitudes para participar en
+                            acciones de promoción, prevención, atención
+                            y cuidado de la salud.
+                        </p>
+
+
+                        <h4>
+                            Formación
+                        </h4>
+
+                        <div class="row g-3">
+
+
+                            <div class="col-md-4">
+
+                                <div class="dato-carrera">
+
+                                    <i class="bi bi-heart-pulse"></i>
+
+                                    <strong>
+                                        Salud integral
+                                    </strong>
+
+                                    <span>
+                                        Atención y cuidado de la salud
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-4">
+
+                                <div class="dato-carrera">
+
+                                    <i class="bi bi-people"></i>
+
+                                    <strong>
+                                        Comunidad
+                                    </strong>
+
+                                    <span>
+                                        Trabajo con familias y comunidades
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                            <div class="col-md-4">
+
+                                <div class="dato-carrera">
+
+                                    <i class="bi bi-shield-plus"></i>
+
+                                    <strong>
+                                        Prevención
+                                    </strong>
+
+                                    <span>
+                                        Promoción de la salud
+                                    </span>
+
+                                </div>
+
+                            </div>
+
+
+                        </div>
+
+
+                        <div class="modal-aviso mt-4">
+
+                            <i class="bi bi-info-circle-fill"></i>
+
+                            <div>
+
+                                <strong>
+                                    Información para aspirantes
+                                </strong>
+
+                                <p>
+                                    Consulta próximamente la convocatoria,
+                                    requisitos y proceso de ingreso.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
+                    <!-- PIE -->
+
+                    <div class="modal-footer">
+
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">
+                            Cerrar
+                        </button>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+
+    <!-- =========================
+     UBICACIÓN
+========================== -->
+
+    <!-- =========================
+     UBICACIÓNf
+========================== -->
+
+    <section id="ubicacion" class="seccion ubicacion">
+
+        <div class="container">
+
+            <div class="titulo-seccion">
+
+                <span>Visítanos</span>
+
+                <h2>Nuestra ubicación</h2>
+
+
+
+            </div>
+
+
+            <div class="row align-items-center justify-content-center g-4">
+
+                <!-- INFORMACIÓN -->
+
+                <div class="col-lg-5">
+
+                    <div class="ubicacion-info">
+
+                        <div class="ubicacion-item">
+
+                            <i class="bi bi-geo-alt-fill"></i>
+
+                            <div>
+
+                                <h3>Ubicación</h3>
+
+                                <p>
+                                    Ejido San Martín Chamizal,
+                                    Palenque, Chiapas.
+                                </p>
+
+                            </div>
+
+                        </div>
+
+
+
+
+
+                        <!-- CÓMO LLEGAR -->
+
+                        <div class="como-llegar">
+
+                            <h3>
+                                <i class="bi bi-sign-turn-right-fill"></i>
+                                ¿Cómo llegar?
+                            </h3>
+
+                            <p>
+                                Consulta la ruta desde Palenque
+                                hasta nuestra sede en San Martín Chamizal.
+                            </p>
+
+                            <a href="https://www.google.com/maps/dir/?api=1&origin=Palenque,+Chiapas&destination=17.269964,-91.608622&travelmode=driving"
+                                target="_blank" rel="noopener noreferrer" class="btn btn-ubbj">
+
+                                <i class="bi bi-google"></i>
+
+                                Cómo llegar desde Palenque
+
+                            </a>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+
+                <!-- MAPA -->
+
+                <div class="col-lg-6">
+
+                    <div class="mapa-container">
+
+                        <iframe src="https://www.google.com/maps?q=17.269964,-91.608622&z=15&output=embed" width="100%"
+                            height="320" style="border:0;" allowfullscreen="" loading="lazy"
+                            referrerpolicy="no-referrer-when-downgrade">
+                        </iframe>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         CONTACTO
+    ========================== -->
+
+    <section id="contacto" class="contacto">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-lg-6">
+
+                    <span>
+                        Estamos para servirte
+                    </span>
+
+                    <h2>
+                        Contáctanos
+                    </h2>
+
+                    <p>
+                        Para obtener información sobre nuestra
+                        oferta educativa, trámites y actividades.
+                    </p>
+
+                </div>
+
+
+                <div class="col-lg-6">
+
+                    <div class="contacto-item">
+
+                        <i class="bi bi-geo-alt"></i>
+
+                        <div>
+                            <strong>Ubicación</strong>
+                            <p>
+                                San Martín Chamizal,
+                                Palenque, Chiapas.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="contacto-item">
+
+                        <i class="bi bi-envelope"></i>
+
+                        <div>
+                            <strong>Correo electrónico</strong>
+                            <p>
+                                contacto@ubbj.edu.mx
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer>
+
+        <div class="container text-center">
+
+            <img src="img/logo-ubbj.png" alt="UBBJ" class="logo-footer">
+
+            <p>
+                Universidad para el Bienestar Benito Juárez García
+            </p>
+
+            <small>
+                Sede San Martín Chamizal · Palenque, Chiapas
+            </small>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Bootstrap JS -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js">
+    </script>
+
+    <!-- JavaScript personalizado -->
+
+    <script src="js/app.js"></script>
+
+</body>
+
+</html>

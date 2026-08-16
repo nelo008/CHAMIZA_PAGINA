@@ -1,0 +1,1096 @@
+/* =========================================
+   VARIABLES
+========================================= */
+
+:root {
+
+    --verde-ubbj: #006634;
+    --verde-oscuro: #004d27;
+    --verde-claro: #e7f3ed;
+
+    --gris: #555555;
+    --blanco: #ffffff;
+    --negro: #222222;
+
+}
+
+
+/* =========================================
+   CONFIGURACIÓN GENERAL
+========================================= */
+
+body {
+
+    font-family: Arial, Helvetica, sans-serif;
+
+    color: var(--negro);
+
+    margin: 0;
+
+}
+
+
+/* =========================================
+   NAVBAR
+========================================= */
+
+.navbar-ubbj {
+
+    background-color: var(--blanco);
+
+    border-bottom: 4px solid var(--verde-ubbj);
+
+    padding: 10px 0;
+
+}
+
+
+.logo {
+
+    width: 70px;
+
+    height: 70px;
+
+    object-fit: contain;
+
+}
+
+
+.nombre-institucion {
+
+    display: flex;
+
+    flex-direction: column;
+
+    margin-left: 10px;
+
+    line-height: 1.1;
+
+}
+
+
+.nombre-institucion strong {
+
+    color: var(--verde-ubbj);
+
+    font-size: 1.4rem;
+
+}
+
+
+.nombre-institucion span {
+
+    color: var(--gris);
+
+    font-size: 0.8rem;
+
+}
+
+
+.nav-link {
+
+    color: var(--verde-ubbj) !important;
+
+    font-weight: 600;
+
+    margin-left: 10px;
+
+}
+
+
+.nav-link:hover {
+
+    color: var(--verde-oscuro) !important;
+
+}
+
+
+/* =========================================
+   HERO
+========================================= */
+
+.hero {
+
+    background:
+
+        linear-gradient(
+            135deg,
+            var(--verde-claro),
+            #ffffff
+        );
+
+    padding: 50px 0;
+
+}
+
+
+.etiqueta {
+
+    color: var(--verde-ubbj);
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+}
+
+
+.hero h1 {
+
+    color: var(--verde-oscuro);
+
+    font-size: clamp(2.2rem, 5vw, 4rem);
+
+    font-weight: 700;
+
+    margin-top: 10px;
+
+}
+
+
+.hero h2 {
+
+    color: var(--verde-ubbj);
+
+}
+
+
+.hero p {
+
+    color: var(--gris);
+
+    font-size: 1.1rem;
+
+    max-width: 650px;
+
+}
+
+
+.logo-hero {
+
+    width: 280px;
+
+    max-width: 80%;
+
+}
+
+
+/* =========================================
+   BOTONES
+========================================= */
+s
+.btn-ubbj {
+
+    background-color: var(--verde-ubbj);
+    color: white;
+    border: 2px solid var(--verde-ubbj);
+    padding: 10px 20px;
+    font-weight: bold;
+
+}
+
+
+.btn-ubbj:hover {
+
+    background-color: var(--verde-oscuro);
+
+    border-color: var(--verde-oscuro);
+
+    color: white;
+
+}
+
+
+.btn-outline-ubbj {
+
+    color: var(--verde-ubbj);
+
+    border: 2px solid var(--verde-ubbj);
+
+    padding: 10px 20px;
+
+    font-weight: bold;
+
+    margin-left: 8px;
+
+}
+
+
+.btn-outline-ubbj:hover {
+
+    background-color: var(--verde-ubbj);
+
+    color: white;
+
+}
+
+
+/* =========================================
+   SECCIONES
+========================================= */
+
+.seccion {
+
+    padding: 45px 0;
+
+}
+
+
+.seccion-verde {
+
+    background-color: var(--verde-ubbj);
+
+}
+
+
+/* =========================================
+   TÍTULOS
+========================================= */
+
+.titulo-seccion {
+
+    text-align: center;
+
+    margin-bottom: 30px;
+
+}
+
+
+.titulo-seccion span {
+
+    color: var(--verde-ubbj);
+
+    font-weight: bold;
+
+    text-transform: uppercase;
+
+    letter-spacing: 2px;
+
+}
+
+
+.titulo-seccion h2 {
+
+    color: var(--verde-oscuro);
+
+    font-size: 2rem;
+
+    font-weight: bold;
+
+}
+
+
+.titulo-blanco span,
+.titulo-blanco h2 {
+
+    color: white;
+
+}
+
+
+/* =========================================
+   TARJETAS
+========================================= */
+
+.tarjeta {
+
+    background: white;
+
+    border-radius: 15px;
+
+    padding: 25px 18px;
+
+    height: 100%;
+
+    text-align: center;
+
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+
+    transition: 0.3s;
+
+}
+
+
+.tarjeta:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+.tarjeta i {
+
+    font-size: 3rem;
+
+    color: var(--verde-ubbj);
+
+}
+
+
+.tarjeta h3 {
+
+    color: var(--verde-oscuro);
+    margin-top: 15px;
+    font-size: 1.15rem;
+
+}
+
+.tarjeta p {
+    font-size: 0.9rem;
+    line-height: 1.5;
+}
+
+
+/* =========================================
+   CARRERAS
+========================================= */
+
+.carrera {
+
+    height: 100%;
+
+    border: none;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+    transition: 0.3s;
+
+}
+
+
+.carrera:hover {
+
+    transform: translateY(-8px);
+
+}
+
+
+.carrera .card-body {
+
+    padding: 25px;
+
+}
+
+
+.carrera i {
+
+    font-size: 3rem;
+
+    color: var(--verde-ubbj);
+
+}
+
+
+.carrera h3 {
+
+    color: var(--verde-oscuro);
+
+    margin-top: 20px;
+
+}
+
+
+/* =========================================
+   AVISOS
+========================================= */
+
+.aviso {
+
+    padding: 30px;
+
+    border-left: 5px solid var(--verde-ubbj);
+
+    background-color: var(--verde-claro);
+
+    height: 100%;
+
+}
+
+
+.fecha {
+
+    font-size: 2rem;
+
+    color: var(--verde-ubbj);
+
+}
+
+
+.aviso h3 {
+
+    color: var(--verde-oscuro);
+
+}
+
+
+.aviso a {
+
+    color: var(--verde-ubbj);
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+}
+
+
+/* =========================================
+   CONTACTO
+========================================= */
+
+.contacto {
+
+    background-color: var(--verde-oscuro);
+
+    color: white;
+
+    padding: 70px 0;
+
+}
+
+
+.contacto h2 {
+
+    font-size: 2.5rem;
+
+    margin: 10px 0 20px;
+
+}
+
+
+.contacto-item {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 20px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.contacto-item i {
+
+    font-size: 2rem;
+
+}
+
+
+.contacto-item p {
+
+    margin: 5px 0 0;
+
+}
+
+
+/* =========================================
+   FOOTER
+========================================= */
+
+footer {
+
+    background-color: #00351b;
+
+    color: white;
+
+    padding: 40px 0;
+
+}
+
+
+.logo-footer {
+
+    width: 100px;
+
+    margin-bottom: 15px;
+
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .hero {
+        padding: 50px 0;
+        text-align: center;
+    }
+
+
+    .hero p {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+
+    .logo-hero {
+        display: none;
+    }
+
+
+    .btn-outline-ubbj {
+        margin-left: 0;
+        margin-top: 10px;
+    }
+
+
+    .nombre-institucion span {
+        font-size: 0.7rem;
+    }
+
+
+    .seccion {
+        padding: 60px 0;
+    }
+
+}
+
+/* =========================================
+   UBICACIÓN
+========================================= */
+
+.ubicacion {
+
+    background-color: #f5f9f7;
+
+}
+
+
+/* =========================================
+   INFORMACIÓN DE UBICACIÓN
+========================================= */
+
+.ubicacion-info {
+
+    padding: 15px;
+
+}
+
+
+.ubicacion-item {
+
+    display: flex;
+
+    align-items: flex-start;
+
+    gap: 18px;
+
+    margin-bottom: 25px;
+
+}
+
+
+.ubicacion-item i {
+
+    color: var(--verde-ubbj);
+
+    font-size: 1.8rem;
+
+    min-width: 35px;
+
+}
+
+
+.ubicacion-item h3 {
+
+    color: var(--verde-oscuro);
+
+    font-size: 1.2rem;
+
+    margin-bottom: 5px;
+
+}
+
+
+.ubicacion-item p {
+
+    color: var(--gris);
+
+    margin: 0;
+
+}
+
+
+/* =========================================
+   CÓMO LLEGAR
+========================================= */
+
+.como-llegar {
+
+    background-color: white;
+
+    border-left: 5px solid var(--verde-ubbj);
+
+    padding: 20px;
+
+    border-radius: 8px;
+
+    margin-top: 20px;
+
+}
+
+
+.como-llegar h3 {
+
+    color: var(--verde-oscuro);
+
+    font-size: 1.3rem;
+
+    margin-bottom: 10px;
+
+}
+
+
+.como-llegar h3 i {
+
+    color: var(--verde-ubbj);
+
+}
+
+
+.como-llegar p {
+
+    color: var(--gris);
+
+    margin-bottom: 20px;
+
+}
+
+
+/* =========================================
+   MAPA
+========================================= */
+
+.mapa-container {
+
+    width: 100%;
+
+    max-width: 600px;
+
+    margin: auto;
+
+    overflow: hidden;
+
+    border-radius: 15px;
+
+    border: 3px solid var(--verde-ubbj);
+
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.10);
+
+}
+
+
+.mapa-container iframe {
+
+    display: block;
+
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .ubicacion-info {
+
+        padding: 5px;
+
+    }
+
+
+    .mapa-container iframe {
+
+        height: 280px;
+
+    }
+
+
+    .como-llegar {
+
+        margin-bottom: 10px;
+
+    }
+
+}
+
+/* =========================================
+   BANNER / CARRUSEL
+========================================= */
+
+.banner-principal {
+
+    width: 100%;
+
+    background-color: var(--verde-ubbj);
+
+}
+
+
+.banner-principal .carousel-item img {
+
+    width: 100%;
+
+    height: 380px;
+
+    object-fit: cover;
+
+}
+
+
+/* =========================================
+   RESPONSIVE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .banner-principal .carousel-item img {
+
+        height: 220px;
+
+        object-fit: cover;
+
+    }
+
+}
+/* =========================================
+   MODAL - CARRERA
+========================================= */
+
+.modal-content {
+
+    border: none;
+
+    border-radius: 15px;
+
+    overflow: hidden;
+
+}
+
+
+.modal-header {
+
+    background-color: var(--verde-ubbj);
+
+    color: white;
+
+    border-bottom: none;
+
+    padding: 20px 25px;
+
+}
+
+
+.modal-header .modal-title {
+
+    font-size: 1.35rem;
+
+    font-weight: bold;
+
+}
+
+
+.modal-header .modal-title i {
+
+    margin-right: 8px;
+
+}
+
+
+.modal-header .btn-close {
+
+    filter: brightness(0) invert(1);
+
+}
+
+
+.modal-body {
+
+    padding: 30px;
+
+}
+
+
+.modal-body h3 {
+
+    color: var(--verde-oscuro);
+
+    text-align: center;
+
+    margin-bottom: 20px;
+
+}
+
+
+.modal-body h4 {
+
+    color: var(--verde-ubbj);
+
+    margin-top: 25px;
+
+    margin-bottom: 10px;
+
+}
+
+
+.icono-carrera-modal {
+
+    display: inline-flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    width: 80px;
+
+    height: 80px;
+
+    border-radius: 50%;
+
+    background-color: var(--verde-claro);
+
+    color: var(--verde-ubbj);
+
+    font-size: 2.8rem;
+
+}
+
+
+/* =========================================
+   DATOS DE LA CARRERA
+========================================= */
+
+.dato-carrera {
+
+    height: 100%;
+
+    padding: 20px;
+
+    text-align: center;
+
+    background-color: var(--verde-claro);
+
+    border-radius: 10px;
+
+}
+
+
+.dato-carrera i {
+
+    display: block;
+
+    color: var(--verde-ubbj);
+
+    font-size: 1.8rem;
+
+    margin-bottom: 10px;
+
+}
+
+
+.dato-carrera strong {
+
+    display: block;
+
+    color: var(--verde-oscuro);
+
+    margin-bottom: 5px;
+
+}
+
+
+.dato-carrera span {
+
+    display: block;
+
+    color: var(--gris);
+
+    font-size: 0.9rem;
+
+}
+
+
+/* =========================================
+   AVISO DEL MODAL
+========================================= */
+
+.modal-aviso {
+
+    display: flex;
+
+    gap: 15px;
+
+    align-items: flex-start;
+
+    padding: 18px;
+
+    background-color: #f5f9f7;
+
+    border-left: 4px solid var(--verde-ubbj);
+
+    border-radius: 8px;
+
+}
+
+
+.modal-aviso > i {
+
+    color: var(--verde-ubbj);
+
+    font-size: 1.5rem;
+
+}
+
+
+.modal-aviso strong {
+
+    color: var(--verde-oscuro);
+
+}
+
+
+.modal-aviso p {
+
+    margin: 5px 0 0;
+
+    color: var(--gris);
+
+}
+
+
+/* =========================================
+   MODAL EN CELULAR
+========================================= */
+
+@media (max-width: 576px) {
+
+    .modal-body {
+
+        padding: 20px;
+
+    }
+
+
+    .modal-header .modal-title {
+
+        font-size: 1.05rem;
+
+    }
+
+
+    .dato-carrera {
+
+        padding: 15px;
+
+    }
+
+}
+/* Botón Conocer la carrera */
+.btn-conocer-carrera {
+    padding: 8px 16px;
+    font-size: 0.9rem;
+    border-radius: 6px;
+}
+
+.logo-beca-container {
+    width: 100%;
+    height: 90px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.logo-beca {
+    width: 100%;
+    max-width: 220px;
+    height: 80px;
+    object-fit: contain;
+}
+/* =========================================
+   LOGO IMSS BIENESTAR
+========================================= */
+
+.logo-seguro-container {
+
+    width: 100%;
+
+    height: 90px;
+
+    display: flex;
+
+    align-items: center;
+
+    justify-content: center;
+
+    margin-bottom: 15px;
+
+    overflow: hidden;
+
+}
+
+
+.logo-seguro {
+
+    width: 100%;
+
+    max-width: 230px;
+
+    height: 85px;
+
+    object-fit: contain;
+
+}
+
+/* =========================================
+   BOTONES DEL HERO
+========================================= */
+
+.botones-hero {
+
+    display: flex;
+
+    align-items: center;
+
+    gap: 12px;
+
+    margin-top: 25px;
+
+}
+
+
+.botones-hero .btn {
+
+    padding: 8px 18px;
+
+    font-size: 0.9rem;
+
+    border-radius: 6px;
+
+}
+
+
+/* =========================================
+   CELULAR
+========================================= */
+
+@media (max-width: 768px) {
+
+    .botones-hero {
+
+        justify-content: center;
+
+        gap: 10px;
+
+    }
+
+}
